@@ -3,6 +3,6 @@ def valphone(number):
         return number[0] == "0" and number[1] == "7" and number.isdigit()
     else:
         return False
-phoneInput ='07889910'
+phoneInput ='078899198'
 
 print(valphone(phoneInput))
